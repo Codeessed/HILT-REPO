@@ -10,6 +10,9 @@
         android:supportsRtl="true"
         android:theme="@style/Theme.HILTTicTacToe">
         <activity
+            android:name=".splashscreen.FirstSplashScreen"
+            android:exported="true" />
+        <activity
             android:name=".MainActivity"
             android:exported="true">
             <intent-filter>
